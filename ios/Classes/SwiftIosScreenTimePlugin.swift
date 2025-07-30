@@ -3,7 +3,7 @@ import UIKit
 import FamilyControls
 import ManagedSettings
 
-@available(iOS 15.0, *)
+@available(iOS 16.0, *)
 public class SwiftIosScreenTimePlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(name: "ios_screen_time_tools", binaryMessenger: registrar.messenger())
